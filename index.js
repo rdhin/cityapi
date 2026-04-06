@@ -9,7 +9,7 @@ app.get('/api/v1/weather', (req, res) => {
 
 // Controller 2: Traffic
 app.get('/api/v1/traffic', (req, res) => {
-    res.json({ status: "success", congestion_level: "Medium", incidents: 0, delay_minutes: 5 });
+    res.json({ status: "success", congestion_level: "HIgh", incidents: 0, delay_minutes: 5 });
 });
 
 app.listen(port, () => console.log(`API App listening at http://localhost:${port}`));
